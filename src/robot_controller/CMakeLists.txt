@@ -204,7 +204,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 install(PROGRAMS
   scripts/robot_controller.py scripts/imu_position_estimation.py scripts/ins_position_estimator.py scripts/torque_pos_imu_ins.py scripts/mov_diag.py scripts/calib.py
-  scripts/equadiff.py scripts/kalman.py scripts/your.py
+  scripts/equadiff.py scripts/kalman.py scripts/your.py scripts/statemachine.py scripts/roll_debug.py scripts/roll_gazebo.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
